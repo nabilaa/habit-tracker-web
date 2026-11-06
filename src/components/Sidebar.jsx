@@ -48,7 +48,7 @@ export default function Sidebar() {
     <aside className="hidden md:flex md:flex-col w-64 fixed inset-y-0 left-0 z-30 glass border-r">
       <div className="px-6 py-5 border-b divider">
         <div className="flex items-center gap-2">
-          <div className="w-9 h-9 rounded-xl bg-gradient-to-br from-brand-500 to-brand-700 text-white flex items-center justify-center">
+          <div className="w-9 h-9 rounded-xl bg-brand-500/80 text-white flex items-center justify-center">
             <Sparkles size={18} />
           </div>
           <div className="font-semibold text-lg tracking-tight">Haru Habit Tracker</div>
@@ -91,7 +91,7 @@ export default function Sidebar() {
         </button>
 
         <div className="px-2 py-2 flex items-center gap-3">
-          <div className="w-9 h-9 rounded-full bg-gradient-to-br from-brand-500 to-brand-700 text-white font-semibold flex items-center justify-center">
+          <div className="w-9 h-9 rounded-full bg-brand-500/80 text-white font-semibold flex items-center justify-center">
             {user?.avatar || user?.name?.charAt(0).toUpperCase() || "U"}
           </div>
           <div className="flex-1 min-w-0">

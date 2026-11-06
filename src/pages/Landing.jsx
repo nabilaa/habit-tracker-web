@@ -41,7 +41,7 @@ export default function Landing() {
     <div className="min-h-screen">
       <header className="max-w-6xl mx-auto px-6 py-5 flex items-center justify-between">
         <div className="flex items-center gap-2">
-          <div className="w-9 h-9 rounded-xl bg-gradient-to-br from-brand-500 to-brand-700 text-white flex items-center justify-center shadow-lg shadow-brand-500/30">
+          <div className="w-9 h-9 rounded-xl bg-brand-500 text-white flex items-center justify-center shadow-lg shadow-brand-500/30">
             <Sparkles size={18} />
           </div>
           <span className="font-semibold text-lg">Haru Habit Tracker</span>
@@ -117,7 +117,7 @@ export default function Landing() {
                   </div>
                   <div
                     className={`w-7 h-7 rounded-full flex items-center justify-center ${h.done
-                      ? "bg-gradient-to-br from-brand-500 to-brand-700 text-white shadow-md shadow-brand-500/30"
+                      ? "bg-brand-500 text-white shadow-md shadow-brand-500/30"
                       : "border-2 border-[var(--surface-border)]"
                       }`}
                   >
